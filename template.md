@@ -57,6 +57,6 @@ Note: Specifications are subject to change. Please verify information before mak
    - Windows 11 or distro with kernel
    - AMD or Intel 11th/12th/13th
 
-<!-- Add new user experiences for Dell WD19TBS here -->
+<!-- Add new user experiences for NEW DOCK here -->
 
 <!-- Add new sections for additional brands and models here -->
