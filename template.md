@@ -1,81 +1,62 @@
-# Thunderbolt/USB-C docks  Compatibility with Linux Framework Laptop 13
+# Thunderbolt/USB-C Docks Comparison and User Experiences
 
-## General Information
+This document provides a comparison of various Thunderbolt and USB-C docks, along with user experiences. We welcome contributions! Please feel free to fork this repository and submit pull requests with updates, corrections, additional entries, or your personal experiences.
 
-- **Thunderbolt/USB-C docks Model**: [Enter USB hub model name/number]
-- **Manufacturer**: [Enter manufacturer name]
-- **Number of Ports**: [Enter number of ports]
-- **USB Version**: [Enter USB version (e.g., USB 2.0, USB 3.0, USB 3.1, etc.)]
-- **Date Tested**: [Enter date of testing]
-- **Tester**: [Enter your name or username]
+## Dock Specifications
 
-## System Information
+| Brand   | Model   | Ports   | Power Delivery | Video Output | Ethernet | Audio   | Compatibility |
+|---------|---------|---------|----------------|--------------|----------|---------|---------------|
+| CalDigit | TS4     | 18 total, including:<br>- 3x Thunderbolt 4<br>- 5x USB-A<br>- 3x USB-C<br>- 1x SD Card Reader | 98W | Up to 8K@60Hz or<br>2x 6K@60Hz | 2.5GbE | 3.5mm Audio In/Out | Thunderbolt 4, 3<br>USB4, USB-C |
+| Dell    | WD19TBS | 11 total, including:<br>- 1x Thunderbolt 3<br>- 4x USB-A<br>- 1x USB-C<br>- 1x HDMI | 130W | Up to 4K@60Hz or<br>3x 4K@30Hz | 1GbE | 3.5mm Audio In/Out | Thunderbolt 3, 4<br>USB-C |
+|         |         |         |                |              |          |         |               |
+|         |         |         |                |              |          |         |               |
+|         |         |         |                |              |          |         |               |
+|         |         |         |                |              |          |         |               |
+|         |         |         |                |              |          |         |               |
+|         |         |         |                |              |          |         |               |
 
-- **Linux Distribution**: [Enter Linux distribution (e.g., Ubuntu 24.04, Fedora 38, etc.)]
-- **Kernel Version**: [Enter kernel version (e.g., 6.8.0-35-generic)]
-- **Desktop Environment**: [Enter desktop environment (e.g., GNOME, KDE, etc.)]
+<!-- Add new brands and models here -->
 
-## Compatibility Details
+Note: Specifications are subject to change. Please verify information before making a purchase decision.
 
-- **Plug-and-Play Functionality**: [Yes/No]
-- **Power Delivery**: [Yes/No]
-- **Data Transfer Speed**: [Enter data transfer speed (e.g., 5Gbps)]
-- **Supported Devices**: 
-  - [List supported devices connected via the hub, e.g., mouse, keyboard, external hard drive, etc.]
+## User Experiences
 
-## Identified Issues
+### CalDigit TS4
 
-- **Issue 1**: [Describe any issue encountered]
-  - **Description**: [Detailed description of the issue]
-  - **Workaround/Fix**: [Any workaround or fix, if available]
-  - **Logs/Errors**: 
-    ```plaintext
-    [Include relevant log entries or error messages]
-    ```
+1. **User Experience** (Date: Generic) (Username: )
+   - Pros:
+     - Excellent build quality
+     - Stable connection with MacBook Pro M1
+   - Cons:
+     - Runs a bit warm under heavy load
+ - Compatible Yes/No
+   - Windows 11 or distro with kernel
+   - AMD or Intel 11th/12th/13th
 
-- **Issue 2**: [Describe any issue encountered]
-  - **Description**: [Detailed description of the issue]
-  - **Workaround/Fix**: [Any workaround or fix, if available]
-  - **Logs/Errors**: 
-    ```plaintext
-    [Include relevant log entries or error messages]
-    ```
+2. **User Experience** (Date: Generic) (Username: )
+   - Pros:
+     - Great port selection
+     - Supports multiple 4K displays flawlessly
+   - Cons:
+     - Higher end of price range compared to some alternatives
+ - Compatible Yes/No
+   - Windows 11 or distro with kernel
+   - AMD or Intel 11th/12th/13th
 
-## Troubleshooting Tips
+<!-- Add new user experiences for CalDigit TS4 here -->
 
-1. **Check dmesg Logs**:
-    ```bash
-    dmesg | grep -i usb
-    ```
+### Dell WD19TBS
 
-2. **Verify USB Devices**:
-    ```bash
-    lsusb
-    ```
+1. **User Experience** (Date: Generic) (Username: )
+   - Pros:
+     - High power delivery, great for laptops with high power requirements
+     - Reliable Ethernet connection
+   - Cons:
+     - Limited Thunderbolt ports
+ - Compatible Yes/No
+   - Windows 11 or distro with kernel
+   - AMD or Intel 11th/12th/13th
 
-3. **Inspect Power Settings**:
-    ```bash
-    upower -i /org/freedesktop/UPower/devices/usb_device_[DeviceID]
-    ```
+<!-- Add new user experiences for Dell WD19TBS here -->
 
-4. **Kernel Module Management**:
-    ```bash
-    sudo modprobe [module_name]
-    ```
-
-## Additional Notes
-
-- **Firmware Updates**: [Any information on firmware updates for the USB hub]
-- **Links and Resources**: 
-  - [Official product page](#)
-  - [Linux community discussions](#)
-  - [Driver downloads](#)
-
-## Conclusion
-
-- **Overall Compatibility**: [Summarize the overall compatibility of the USB hub with Linux]
-- **Final Remarks**: [Any additional comments or recommendations]
-
----
-
-*This document is a part of the Thunderbolt/USB-C docks Compatibility with Linux Framework Laptop 13 Database. Contributions are welcome!*
+<!-- Add new sections for additional brands and models here -->
